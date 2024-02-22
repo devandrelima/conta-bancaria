@@ -1,9 +1,7 @@
-package dio.desafio.java.main;
+package dio.java.desafio;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
-import dio.desafio.java.suporte.ContaBanco;
 
 public class ContaTerminal {
 

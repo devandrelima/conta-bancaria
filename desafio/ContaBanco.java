@@ -1,4 +1,4 @@
-package dio.desafio.java.suporte;
+package dio.java.desafio;
 
 public class ContaBanco {
 	private int numeroConta;

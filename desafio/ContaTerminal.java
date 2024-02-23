@@ -1,4 +1,4 @@
-package dio.java.desafio;
+package java.desafio.controller;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package java.desafio.view;
+package java.desafio.model;
 
 public class ContaBanco {
 	private int numeroConta;

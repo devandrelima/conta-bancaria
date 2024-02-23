@@ -25,11 +25,11 @@ public class ContaTerminal {
 				+ "\ne seu saldo de R$" + contaBanco.getSaldo() + " reais já está disponível para saque.");
 	}
 	
-	//--------------------------------------------------------------------------------------------------
-	// Descrição_: Função que trata qualquer erro durante o preenchimento da entrada do número da conta.
+	//------------------------------------------------------------------------------------------
+	// Descrição_: Função que trata erros durante o preenchimento da entrada do número da conta.
 	// Entrada___: Sem parâmetos.
 	// Saída_____: Retorna um número inteiro.
-	//--------------------------------------------------------------------------------------------------
+	//------------------------------------------------------------------------------------------
 	static int preencherNumeroConta() {
 		boolean sair;
 		int numeroConta = 0;
@@ -49,11 +49,11 @@ public class ContaTerminal {
 		return numeroConta;
 	}
 	
-	//------------------------------------------------------------------------------------------------
-	// Descrição_:Função que trata qualquer erro durante o preenchimento da entrada do saldo da conta.
+	//----------------------------------------------------------------------------------------
+	// Descrição_:Função que trata erros durante o preenchimento da entrada do saldo da conta.
 	// Entrada___: Sem parâmetos.
 	// Saída_____: Retorna um número double.
-	//------------------------------------------------------------------------------------------------
+	//----------------------------------------------------------------------------------------
 	static double preencherSaldo() {
 		boolean sair;
 		double saldo = 0.0;
